@@ -1,0 +1,8 @@
+---
+title: "Forecasting Demo"
+author: "Josh Tyler"
+format:
+  html:
+    embed-resources: true
+---
+
