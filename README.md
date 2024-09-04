@@ -1,27 +1,43 @@
-# Turing PPL Forecasting Competition Template
+# Turing PPL Forecasting Competition Example - Mpox
 
-This is the official template repository for Turing PPL Forecasting Competitions. 
+This is an example competition repo for the Turing PPL forecasting events. It will have all of the information sections you will find in active competitions and will mostly follow the same rules/timelines.
 
-Each competition will have its own repository with pre-prepared data (found in the data folder) and a template report (demo_analysis.qmd) that will showcase how to load the data, perform analyses and then export results into the correct format. There will also be a folder for any additional scripts that are required. Any coding languages are allowed but all analyses must be reproducible by the panel. 
+## Introduction [^readme-1]
 
-More details about the competitions and the Turing PPL Community can be found at: <https://TuringPPL.github.io>.
+[^readme-1]: Adapted from WHO Mpox Dashboard (<https://worldhealthorg.shinyapps.io/mpx_global/>)
 
-The remainder of this README will show the different sections that will usually be included in the competition set-up.
+Mpox is an infectious disease that can cause a painful rash, enlarged lymph nodes, fever, headache, muscle ache, back pain and low energy. Most people fully recover, but some get very sick. 
 
-## Introduction
-This is for setting the scene and providing details relating to the Annual Meeting and the drivers behind the competition.
+Mpox is caused by the monkeypox virus (MPXV). It is an enveloped double-stranded DNA virus of the *Orthopoxvirus* genus in the *Poxviridae* family, which includes variola, cowpox, vaccinia and other viruses. There are two distinct clades of the virus: clade I (with subclades Ia and Ib) and clade II (with subclades IIa and IIb).
 
+A global outbreak of clade IIb began in 2022 and continues to this day, including in some African countries. There are also growing outbreaks of clades Ia and Ib affecting the Democratic Republic of the Congo and other countries in Africa. As of August 2024, clade Ib has also been detected beyond Africa.
+
+The natural reservoir of the virus is unknown, but various small mammals such as squirrels and monkeys are susceptible.
+
+The dataset included in this forecasting competition covers the period from Jan 2022 to July 2024.
+
+This competition has its own repository with pre-prepared data (found in the data folder) and a template report (demo_analysis.qmd) which showcases how to load the data, perform analyses and then export results into the correct format. There is also be a folder for any additional scripts that are required.
+
+## Forecasting Outputs
+
+For this example competition, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the 12 month following the end of the collected data (i.e. August 2024 - July 2025)
 
 ## Joining the Competition & Getting Started
+
 Here we will need details of how to fork the repo / download the data and then a brief intro to the .qmd reporting.
 
 ## Rules
-There will be generic rules on the website but here we will give the specific timelines for submissions and how the panel will be assessing the accuracy of the predictions.
+
+- Any coding languages are allowed but all analyses must be reproducible by the panel.
+- All entries must be loaded into a public Github repo.
+- All entries must follow the submission formats outlined below.
+- All entries must include a 500-1000 word report to accompany any analyses. This can be as a seperate PDF or incorporated into a quarto/jupyter notebook.
 
 ## How to Submit
 
 ## Connect with the Community
-Each competition will be stored in its own repo within the TuringPPl organisation and we will also have a Zulip space for each. Links should be placed here and how we plan to communicate on a regular basis. 
+
+This competition has a page on our TuringPPL Zulip where teams can message and get clarification/advice. We will also be monitoring the competition repo. Regular updates will be posted on both platforms.
 
 ## License
 
