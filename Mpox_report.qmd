@@ -6,3 +6,28 @@ format:
     embed-resources: true
 ---
 
+# Organising The Data
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(lubridate)
+
+df<-read.csv(file = "data/aggregated_mpox_case_data.csv") |> 
+  as.data.frame() |> 
+  group_by(who_region,month_start) |> 
+  summarise(cases=sum(cases)) |> 
+  as.data.frame() |> 
+  mutate(year_month=strftime(month_start,format = "%Y-%m"))
+```
+
+# Plotting The Data
+
+```{r message=FALSE, warning=FALSE}
+ggplot(data = df)+
+  geom_bar(aes(x=year_month,y=cases,fill = who_region),stat = "identity",col="black")+
+  theme_bw()+
+  facet_grid(who_region~.,scales = "free_y")+ scale_fill_discrete(name = "WHO Region")+xlab("Date")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+# Creating a Forecast
