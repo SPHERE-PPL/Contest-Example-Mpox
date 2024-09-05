@@ -10,24 +10,39 @@ format:
 
 ```{r message=FALSE, warning=FALSE}
 library(tidyverse)
-library(lubridate)
+library(brms)
+library(parallel)
 
 df<-read.csv(file = "data/aggregated_mpox_case_data.csv") |> 
   as.data.frame() |> 
+  filter(month_start>"2022-06-01") |> 
   group_by(who_region,month_start) |> 
   summarise(cases=sum(cases)) |> 
-  as.data.frame() |> 
-  mutate(year_month=strftime(month_start,format = "%Y-%m"))
+  as.data.frame()
+
+table(df$month_start)
+
+df$month_start<-as.Date(df$month_start)
+
+date_lookup<-data.frame(month_start=unique(df$month_start),
+                        index=1:length(unique(df$month_start)))
+who_regions<-unique(df$who_region)
+
+df<-merge(x = df,y = date_lookup,by = "month_start")
 ```
 
 # Plotting The Data
 
 ```{r message=FALSE, warning=FALSE}
 ggplot(data = df)+
-  geom_bar(aes(x=year_month,y=cases,fill = who_region),stat = "identity",col="black")+
+  geom_bar(aes(x=month_start,y=cases,fill = who_region),stat = "identity",col="black")+
   theme_bw()+
-  facet_grid(who_region~.,scales = "free_y")+ scale_fill_discrete(name = "WHO Region")+xlab("Date")+
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+  facet_grid(who_region~.,scales = "free_y")+ scale_fill_discrete(name = "WHO Region")+
+  xlab("Date")
 ```
 
 # Creating a Forecast
+
+```{r}
+
+```
