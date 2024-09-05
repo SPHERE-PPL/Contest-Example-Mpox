@@ -26,7 +26,7 @@ This competition has its own repository with pre-prepared data (found in the dat
 
 ## Forecasting Outputs
 
-For this example competition, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the 12 month following the end of the collected data (i.e. August 2024 - July 2025)
+For this example competition, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the x months following the end of the collected data.
 
 ## Joining the Competition & Getting Started
 
