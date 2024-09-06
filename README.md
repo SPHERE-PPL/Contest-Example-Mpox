@@ -22,7 +22,7 @@ The dataset included in this forecasting competition covers the period from Jan 
 
 ## Forecasting Outputs
 
-This competition has its own repository with pre-prepared data (found in the data folder) and a template report (demo_analysis.qmd) which showcases how to load the data, perform analyses and then export results into the correct format. There is also be a folder for any additional scripts that are required.
+This competition has its own repository with pre-prepared data (found in the data folder) and a template report (mpox_report.qmd) which showcases how to load the data, perform analyses and then export results into the correct format. There is also be a folder for any additional scripts that are required.
 
 For this example competition, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the remainder of 2024 (August-December).
 
