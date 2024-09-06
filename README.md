@@ -1,12 +1,8 @@
 # Turing PPL Forecasting Competition Example - Mpox
 
+> [!Caution] This example competition is a work in progress and therefore some of the competition infrastructure is still being organised. The information on this page is also subject to change so please check back intermittently.
 
-> [!Caution]
-> This example competition is a work in progress and therefore some of the competition infrastructure is still being organised. The information on this page is also subject to change so please check back intermittently.
-
-
-> [!note]
-> This is an example competition repo for the Turing PPL forecasting events. It will have all of the information sections you will find in active competitions and will mostly follow the same rules/timelines.
+> [!note] This is an example competition repo for the Turing PPL forecasting events. It will have all of the information sections you will find in active competitions and will mostly follow the same rules/timelines.
 
 ## Introduction [^readme-1]
 
@@ -26,20 +22,26 @@ The dataset included in this forecasting competition covers the period from Jan 
 
 This competition has its own repository with pre-prepared data (found in the data folder) and a template report (demo_analysis.qmd) which showcases how to load the data, perform analyses and then export results into the correct format. There is also be a folder for any additional scripts that are required.
 
-For this example competition, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the x months following the end of the collected data.
+For this example competition, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the remainder of 2024 (August-December).
 
 ## Joining the Competition & Getting Started
 
-Here we will need details of how to fork the repo / download the data and then a brief intro to the .qmd reporting.
+The competition repo can be found here: [Competition-Example-Mpox](https://github.com/TuringPPL/Competition-Example-Mpox).
+
+The simplest way to get started is to fork this repo and then clone it onto your local machine. This will allow the organisers to see the forks and keep track of entrants. Alternatively, you can download the repo manually and get started. Each entry must be uploaded to a public github repo to be considered (see Rules below)
 
 ## Rules
 
-- Any coding languages are allowed but all analyses must be reproducible by the panel.
-- All entries must be loaded into a public Github repo.
-- All entries must follow the submission formats outlined below.
-- All entries must include a 500-1000 word report to accompany any analyses. This can be as a seperate PDF or incorporated into a quarto/jupyter notebook.
+-   Any coding languages are allowed but all analyses must be reproducible by the panel.
+-   All entries must be loaded into a public Github repo.
+-   All entries must follow the submission formats outlined below.
+-   All entries must include a max 1000 word report to accompany the forecast analyses. This can be as a separate PDF/hmtl or incorporated into a quarto/jupyter notebook.
 
 ## How to Submit
+
+We are in the process of building back-end architecture to automatically find all forked repos and enter them into the competition but in the interim, please send an email to jtyler\@turing.ac.uk with a link to the public github repo.
+
+The forecast estimates must be submitted as a csv with the name `Mpox_forecast.csv` and contain three columns: WHO region, month start date and Estimate (see example in the repo). The accompanying report should be titled `Mpox_report` and be in a format outlined in the Rules.
 
 ## Connect with the Community
 
