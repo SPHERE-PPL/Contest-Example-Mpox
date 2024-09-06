@@ -1,8 +1,5 @@
 # Turing PPL Forecasting Competition Example - Mpox
 
-> [!Caution]
-> This example competition is a work in progress and therefore some of the competition infrastructure is still being organised. The information on this page is also subject to change so please check back intermittently.
-
 > [!note]
 > This is an example competition repo for the Turing PPL forecasting events. It will have all of the information sections you will find in active competitions and will mostly follow the same rules/timelines. We have included example analysis and outputs to help guide new entrants.
 
