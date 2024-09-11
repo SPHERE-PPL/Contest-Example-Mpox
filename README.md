@@ -1,7 +1,7 @@
-# Turing PPL Forecasting Competition Example - Mpox
+# Turing PPL Forecasting Contest Example - Mpox
 
 > [!note]
-> This is an example competition repo for the Turing PPL forecasting events. It will have all of the information sections you will find in active competitions and will mostly follow the same rules/timelines. We have included example analysis and outputs to help guide new entrants.
+> This is an example contest repo for the Turing PPL forecasting events. It will have all of the information sections you will find in active contests and will mostly follow the same rules/timelines. We have included example analysis and outputs to help guide new entrants.
 
 ## Introduction [^readme-1]
 
@@ -15,17 +15,17 @@ A global outbreak of clade IIb began in 2022 and continues to this day, includin
 
 The natural reservoir of the virus is unknown, but various small mammals such as squirrels and monkeys are susceptible.
 
-The dataset included in this forecasting competition covers the period from Jan 2022 to July 2024.
+The dataset included in this forecasting contest covers the period from Jan 2022 to July 2024.
 
 ## Forecasting Outputs
 
-This competition has its own repository with pre-prepared data (found in the data folder) and a template report (mpox_report.qmd) which showcases how to load the data, perform analyses and then export results into the correct format. There is also be a folder for any additional scripts that are required.
+This contest has its own repository with pre-prepared data (found in the data folder) and a template report (mpox_report.qmd) which showcases how to load the data, perform analyses and then export results into the correct format. There is also be a folder for any additional scripts that are required.
 
-For this example competition, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the remainder of 2024 (August-December).
+For this example contest, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the remainder of 2024 (August-December).
 
-## Joining the Competition & Getting Started
+## Joining the Contest & Getting Started
 
-The competition repo can be found here: [Competition-Example-Mpox](https://github.com/TuringPPL/Competition-Example-Mpox).
+The contest repo can be found here: [Contest-Example-Mpox](https://github.com/TuringPPL/Contest-Example-Mpox).
 
 The simplest way to get started is to fork this repo and then clone it onto your local machine. This will allow the organisers to see the forks and keep track of entrants. Alternatively, you can download the repo manually and get started. Each entry must be uploaded to a public github repo to be considered (see Rules below)
 
@@ -38,13 +38,13 @@ The simplest way to get started is to fork this repo and then clone it onto your
 
 ## How to Submit
 
-We are in the process of building back-end architecture to automatically find all forked repos and enter them into the competition but in the interim, please send an email to jtyler\@turing.ac.uk with a link to the public github repo.
+We are in the process of building back-end architecture to automatically find all forked repos and enter them into the contest but in the interim, please send an email to jtyler\@turing.ac.uk with a link to the public github repo.
 
 The forecast estimates must be submitted as a csv with the name `Mpox_forecast.csv` and contain three columns: WHO region, month start date and Estimate (see example in the repo). The accompanying report should be titled `Mpox_report` and be in a format outlined in the Rules.
 
 ## Connect with the Community
 
-This competition has a page on our TuringPPL Zulip where teams can message and get clarification/advice. We will also be monitoring the competition repo. Regular updates will be posted on both platforms.
+This contest has a page on our TuringPPL Zulip where teams can message and get clarification/advice. We will also be monitoring the contest repo. Regular updates will be posted on both platforms.
 
 ## License
 
