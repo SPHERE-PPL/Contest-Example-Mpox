@@ -40,7 +40,7 @@ The simplest way to get started is to fork this repo and then clone it onto your
 
 We are in the process of building back-end architecture to automatically find all forked repos and enter them into the contest but in the interim, please send an email to jtyler\@turing.ac.uk with a link to the public github repo.
 
-The forecast estimates must be submitted as a csv with the name `Mpox_forecast.csv` and contain three columns: WHO region, month start date and Estimate (see example in the repo). The accompanying report should be titled `Mpox_report` and be in a format outlined in the Rules.
+The entries should be saved in the submission folder with the forecast estimates saved as a csv (i.e. forecast.csv) and the report saved as a pdf, html or a quarto md (i.e. report.pdf, report.html or report.qmd). The forecast estimates must contain three columns: WHO region, month start date and Estimate (see example in the repo).
 
 ## Connect with the Community
 

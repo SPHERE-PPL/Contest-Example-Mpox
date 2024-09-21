@@ -1,0 +1,18 @@
+---
+title: "Example Report"
+author: ""
+format:
+  html:
+    embed-resources: true
+  pdf: default
+editor_options: 
+  chunk_output_type: console
+---
+
+# Introduction
+
+
+# Creating a Forecast
+
+
+# Creating the results table
