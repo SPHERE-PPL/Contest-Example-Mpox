@@ -1,7 +1,7 @@
-# Turing PPL Forecasting Contest Example - Mpox
+# SPHERE-PPL Forecasting Contest Example - Mpox
 
 > [!note]
-> This is an example contest repo for the Turing PPL forecasting events. It will have all of the information sections you will find in active contests and will mostly follow the same rules/timelines. We have included example analysis and outputs to help guide new entrants.
+> This is an example contest repo for the SPHERE-PPL forecasting events. It will have all of the information sections you will find in active contests and will mostly follow the same rules/timelines. We have included example analysis and outputs to help guide new entrants.
 
 ## Introduction [^readme-1]
 
@@ -25,7 +25,7 @@ For this example contest, we are looking to forecast monthly regional case numbe
 
 ## Joining the Contest & Getting Started
 
-The contest repo can be found here: [Contest-Example-Mpox](https://github.com/TuringPPL/Contest-Example-Mpox).
+The contest repo can be found here: [Contest-Example-Mpox](https://github.com/SPHERE-PPL/Contest-Example-Mpox).
 
 The simplest way to get started is to fork this repo and then clone it onto your local machine. This will allow the organisers to see the forks and keep track of entrants. Alternatively, you can download the repo manually and get started. Each entry must be uploaded to a public github repo to be considered (see Rules below)
 
@@ -44,7 +44,7 @@ The entries should be saved in the submission folder with the forecast estimates
 
 ## Connect with the Community
 
-This contest has a page on our TuringPPL Zulip where teams can message and get clarification/advice. We will also be monitoring the contest repo. Regular updates will be posted on both platforms.
+This contest has a page on our SPHERE-PPL Zulip where teams can message and get clarification/advice. We will also be monitoring the contest repo. Regular updates will be posted on both platforms.
 
 ## License
 
